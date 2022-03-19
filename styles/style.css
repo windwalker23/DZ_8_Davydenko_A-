@@ -1,0 +1,364 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #FFF;
+}
+
+p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.grey_line {
+    border: 1px solid #EFEFEF;
+    margin: 0;
+}
+
+.fix-size {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+/*  */
+/*  */
+/*  */
+
+.top_line {
+    text-align: center;
+    background-color: #EFEFEF;
+    padding: 15px 0;
+}
+
+.top_li:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+.top_li > a {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.logo {
+    display: block;
+    background-image: url(../images/logo.svg);
+    height: 80px;
+    width: 80px;
+    margin: 20px 0;
+}
+
+.logo_name {
+    margin-top: 40px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+}
+
+.tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    margin-right: 40px;
+}
+
+button {
+    border-radius: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    width: 170px;
+    height: 40px;
+}
+
+.button_call {
+    border: 2px solid #F13C6E;
+    background: #fff;
+    color: #000;
+}
+
+.nav {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.nav_li:not(:last-of-type) {
+    margin-right: 40px;
+}
+
+.nav_li > a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+}
+
+/*  */
+/*  */
+/*  */
+
+.sale {
+    background-image: url(../images/sale.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 48%;
+    color: #FFF;
+    padding: 184px 0;
+}
+
+.sale_title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.sale_paragraph {
+    width: 308px;
+    padding: 50px 0;
+}
+
+.button_sale {
+    border: 2px solid #FFF;
+    background: #F13C6E;
+}
+
+/*  */
+/*  */
+/*  */
+
+.main_content {
+    background-color: #EFEFEF;
+}
+
+.cards {
+    padding: 90px 0;
+}
+
+.card_title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 255px;
+    background-color: #FFF;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.card:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+.card img {
+    width: 125px;
+}
+
+.card_info {
+    color: #333333;
+    margin: 20px 30px;
+    
+}
+
+.price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.buy {
+    width: 130px;
+    height: 35px;
+    background: #F13C6E;
+    border-radius: 30px;
+    border: none;
+}
+
+/*  */
+/*  */
+/*  */
+
+.rectangle {
+    width: 540px;
+    background-color: #F13C6E;
+    color: #FFF;
+    padding: 35px 40px;
+    font-family: 'Roboto';
+    background-repeat: no-repeat;
+    background-position: 90%;
+
+}
+
+.subscribe {
+    background-image: url(../images/letter.svg);
+    background-size: 140px auto;
+}
+
+.rectangle_title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.rectangle_text {
+    margin: 25px 0;
+}
+
+.input_subscribe {
+    width: 225px;
+    height: 35px;
+    background: #FFF;
+    border-radius: 30px;
+    border: none;
+}
+
+.input_subscribe::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+.our_shops {
+    background-image: url(../images/truck.svg);
+    background-size: 190px auto;
+}
+
+.shpos_map {
+    width: 170px;
+    height: 35px;
+    background: #F13C6E;
+    border: 2px solid #FFF;
+    border-radius: 30px;
+    text-align: center;
+}
+
+/*  */
+/*  */
+/*  */
+
+.footer_categories {
+    padding: 60px 0;
+}
+
+.categories_group {
+    width: 255px;
+}
+
+.categories_group a {
+    display: block;
+}
+
+.category_title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000;
+    width: 99px;
+}
+
+.category_item {
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+    width: 82px;
+}
+
+.categories_group:not(:first-of-type) {
+    margin-left: 30px;
+}
+
+/*  */
+/*  */
+/*  */
+
+.footer_line {
+    padding: 35px 0;
+}
+.social_item {
+    display: block;
+    position: relative;
+    background-image: url(../images/Ellipse.svg);
+    width: 45px;
+    height: 46px;
+}
+
+.social_img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.social:not(:first-of-type) {
+    margin-left: 20px;
+}
+
+.politics {
+    padding: 25px 0;
+    background-color: #EFEFEF;
+    color: #828282;
+}
+.politic_link {
+    color: #828282;
+    font-size: 12px;
+    line-height: 14px;
+}
